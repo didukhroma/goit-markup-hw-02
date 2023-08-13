@@ -15,6 +15,7 @@
     --accent-color: #e7e9fc;
     --light-color:#f4f4fd;
     --white-color:#ffffff;
+    --button-background-color: #e7e9fc;
     /*
     --modal-overlay-color:rgb(46, 47, 66,.4);
     --hero-background-color:rgba(46, 47, 66,.7);
@@ -72,12 +73,23 @@ body {
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
+
+.title {
+  font: 700 36px/40px;
+/* font-size: 36px;
+font-weight: 700;
+line-height: 1.111; */
+text-align: center;
+
+}
 /* COMMON STYLES END*/
 
 /* ------------------------------------------------------------------------------------------------- */
 /* HEADER START*/
 /* ------------------------------------------------------------------------------------------------- */
+
 /* NAVIGATION */
+
 /* SITE LOGO */
 .site-nav_logo,
 .footer_logo{
@@ -93,10 +105,12 @@ body {
 .footer_logo-text{
     color: var(--primary-brand-color);
 }
+
 /* ACTIVE PAGE */
 .link--active{
     color:var(--pressed-state-color);
 }
+
 /* CONTACTS */
 .contacts_list-link {
   font-style: normal;
@@ -106,10 +120,13 @@ body {
 .contacts_list-link:focus {
   color: var(--pressed-state-color);
 }
+
 /* HEADER END*/
+
 /* ------------------------------------------------------------------------------------------------- */
 /* MAIN START */
 /* ------------------------------------------------------------------------------------------------- */
+
 /* HERO */
 .hero {
   background-color: var(--dark-color);
@@ -132,10 +149,46 @@ background-color: var(--primary-brand-color);
   cursor: pointer;
   background-color: var(--pressed-state-color);
 }
+/* ------------------------------------------------------------------------------------------------- */
+
+/* FEATURES */
+.features_title {
+  display: none;
+}
+.features-list_title{
+  font: 500 20px/24px;
+  /*  
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+ */
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+/* SERVICES */
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* TEAM */
+
+/* ------------------------------------------------------------------------------------------------- */
+.team {
+  background-color: var(--light-color);  
+  text-align: center;
+  
+}
+.team_list-title {
+  font: 500 20px/24px;
+/* font-size: 20px;
+font-weight: 500;
+line-height: 1.2; */
+
+}
 
 /* MAIN END */
+
 /* ------------------------------------------------------------------------------------------------- */
-/* FOOTER */
+/* FOOTER START*/
 /* ------------------------------------------------------------------------------------------------- */
 .footer {
   background-color: var(--dark-color);
@@ -145,4 +198,37 @@ background-color: var(--primary-brand-color);
 }
 .footer_description {
   color: var(--light-color);
+}
+
+/* FOOTER START */
+
+/* ------------------------------------------------------------------------------------------------- */
+/* PORTFOLIO */
+/* ------------------------------------------------------------------------------------------------- */
+.projects_title {
+  display: none;
+}
+/* FILTERS */
+.filters-list_button {
+ font-weight: 500;
+ color: var(--primary-brand-color);
+ letter-spacing: 0.04em;
+ text-align: center;
+
+ background-color: var(--button-background-color);
+
+
+}
+.filters-list_button:hover,
+.filters-list_button:focus {
+  color: var(--white-color) ;
+  background-color: var(--pressed-state-color) ;  
+}
+/* PROJECTS */
+.projects-list_title{
+  font: 500 20px/24px;
+/* font-size: 20px;
+font-weight: 500;
+line-height: 1.2; */
+
 }
