@@ -12,10 +12,14 @@
     <!-- FAVICON -->
     <link
       rel="shortcut icon"
-      href="./images/icons/site_logo.svg"
+      href="../images/icons/site_logo.svg"
       type="image/svg"
     />
     <!-- FONTS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,19 +34,58 @@
   <!-- BODY START -->
   <body>
     <!-- HEADER START -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
+    <header class="header">
+      <!-- NAVIGATION -->
+      <nav class="site-nav">
+        <!-- SITE LOGO -->
+        <a
+          class="site-nav_logo link"
+          href="./index.html"
+          aria-label="site-logo"
+        >
+          <span class="site-nav_logo-text">Web</span>Studio
+        </a>
         <ul>
-          <li><a href=".index.html">Studio</a></li>
-          <li><a href=".portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li>
+            <a class="link" href="./index.html" aria-label="link to main page">
+              Studio
+            </a>
+          </li>
+          <li>
+            <a
+              class="link link--active"
+              href="./portfolio.html"
+              aria-label="link to portfolio page"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a class="link" href="#" aria-label="link to contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <!-- CONTACTS -->
+      <address class="contacts">
+        <ul class="contacts_list">
+          <li>
+            <a
+              class="contacts_list-link link"
+              href="mailto:info@devstudio.com"
+              aria-label="email to webstudio team"
+            >
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a
+              class="contacts_list-link link"
+              href="tel:+110001111111"
+              aria-label="call to webstudio team"
+            >
+              +11 (000) 111-11-11
+            </a>
+          </li>
         </ul>
       </address>
     </header>
@@ -162,9 +205,11 @@
     <!-- MAIN END -->
     <!-- ------------------------------------------------------------------------------ -->
     <!-- FOOTER START -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="footer_logo link" href="./index.html"
+        ><span class="footer_logo-text">Web</span>Studio</a
+      >
+      <p class="footer_description">
         Increase the flow of customers and sales for your business with digital
         marketing &amp; growth solutions.
       </p>

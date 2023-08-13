@@ -1,3 +1,148 @@
+/* ------------------------------------------------------------------------------------------------- */
+/* VARIABLES */
+/* ------------------------------------------------------------------------------------------------- */
+:root {
+    /* FONTS */
+    --primary-font:  Roboto, sans-serif;
+    --logo-font: Raleway,sans-serif;
+    /* COLORS */
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --dark-color: #2e2f42;
+    --success-color: #31d0aa;
+    --text-color:#434455;
+    --subtle-text-color: #8e8f99;
+    --accent-color: #e7e9fc;
+    --light-color:#f4f4fd;
+    --white-color:#ffffff;
+    /*
+    --modal-overlay-color:rgb(46, 47, 66,.4);
+    --hero-background-color:rgba(46, 47, 66,.7);
+    --modal-background-color:linear-gradient(0deg, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)),
+                                linear-gradient(0deg, #FCFCFC, #FCFCFC)
+     */
+
+}
+/* ------------------------------------------------------------------------------------------------- */
+/* COMMON STYLES START*/
+/* ------------------------------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  outline: 1px solid tomato;
+}
+
 body {
-    color:teal
+    font: 16px/24px var(--primary-font);
+    /* font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5; */
+    letter-spacing: 0.02em;
+    color: var(--dark-color)
+}
+
+
+
+.list {
+  list-style: none;
+}
+
+.link {
+  /* display: block; */
+  color:currentColor;
+  text-decoration: none;
+}
+
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+/* COMMON STYLES END*/
+
+/* ------------------------------------------------------------------------------------------------- */
+/* HEADER START*/
+/* ------------------------------------------------------------------------------------------------- */
+/* NAVIGATION */
+/* SITE LOGO */
+.site-nav_logo,
+.footer_logo{
+    font: 800 18px/21px var(--logo-font);
+    /* font-family: var(--logo-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.167; */
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    }
+.site-nav_logo-text,
+.footer_logo-text{
+    color: var(--primary-brand-color);
+}
+/* ACTIVE PAGE */
+.link--active{
+    color:var(--pressed-state-color);
+}
+/* CONTACTS */
+.contacts_list-link {
+  font-style: normal;
+  color: var(--text-color);
+}
+.contacts_list-link:hover,
+.contacts_list-link:focus {
+  color: var(--pressed-state-color);
+}
+/* HEADER END*/
+/* ------------------------------------------------------------------------------------------------- */
+/* MAIN START */
+/* ------------------------------------------------------------------------------------------------- */
+/* HERO */
+.hero {
+  background-color: var(--dark-color);
+  text-align: center;
+}
+.hero-title {
+  font: 700 56px/60px;
+/* font-size: 56px;
+font-weight: 700;
+line-height: 1.07; */
+color: var(--white-color);
+}
+.hero-button {
+font-weight: 500;
+letter-spacing: 0.04em;  
+background-color: var(--primary-brand-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  cursor: pointer;
+  background-color: var(--pressed-state-color);
+}
+
+/* MAIN END */
+/* ------------------------------------------------------------------------------------------------- */
+/* FOOTER */
+/* ------------------------------------------------------------------------------------------------- */
+.footer {
+  background-color: var(--dark-color);
+}
+.footer_logo {
+    color: var(--light-color);
+}
+.footer_description {
+  color: var(--light-color);
 }
