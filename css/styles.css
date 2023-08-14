@@ -111,8 +111,8 @@ body {
   font-style: normal;
   color: var(--text-color);
 }
-.contacts_list-link:hover,
-.contacts_list-link:focus {
+.contacts_list-link[data-email='email']:hover,
+.contacts_list-link[data-email='email']:focus {
   color: var(--pressed-state-color);
 }
 
