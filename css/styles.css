@@ -2,64 +2,56 @@
 /* VARIABLES */
 /* ------------------------------------------------------------------------------------------------- */
 :root {
-    /* FONTS */
-    --primary-font:  Roboto, sans-serif;
-    --logo-font: Raleway,sans-serif;
-    /* COLORS */
-    --primary-brand-color: #4D5AE5;
-    --pressed-state-color: #404BBF;
-    --dark-color: #2e2f42;
-    --success-color: #31d0aa;
-    --text-color:#434455;
-    --subtle-text-color: #8e8f99;
-    --accent-color: #e7e9fc;
-    --light-color:#f4f4fd;
-    --white-color:#ffffff;
-    --button-background-color: #e7e9fc;
-    /*
+  /* FONTS */
+  --primary-font: Roboto, sans-serif;
+  --logo-font: Raleway, sans-serif;
+  /* COLORS */
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --white-color: #ffffff;
+  --button-background-color: #e7e9fc;
+  /*
     --modal-overlay-color:rgb(46, 47, 66,.4);
     --hero-background-color:rgba(46, 47, 66,.7);
     --modal-background-color:linear-gradient(0deg, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)),
                                 linear-gradient(0deg, #FCFCFC, #FCFCFC)
      */
-
 }
 /* ------------------------------------------------------------------------------------------------- */
 /* COMMON STYLES START*/
 /* ------------------------------------------------------------------------------------------------- */
 
-
 body {
-    font: 16px/24px var(--primary-font);
-    /* font-family: var(--primary-font);
+  font: 16px/24px var(--primary-font);
+  /* font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5; */
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-    background-color: var(--white-color);
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  background-color: var(--white-color);
 }
-
-
 
 .list {
   list-style: none;
 }
 
 .link {
-  color:currentColor;
+  color: currentColor;
   text-decoration: none;
 }
 
-
-
-
 .title {
   font: 700 36px/40px;
-/* font-size: 36px;
+  /* font-size: 36px;
 font-weight: 700;
 line-height: 1.111; */
   text-align: center;
-
 }
 /* COMMON STYLES END*/
 
@@ -71,29 +63,33 @@ line-height: 1.111; */
 
 /* SITE LOGO */
 .site-nav_logo,
-.footer_logo{
-    /* font: 800 18px/21px var(--logo-font); */
+.footer_logo {
+  /* font: 800 18px/21px var(--logo-font); */
   font-family: var(--logo-font);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.167;
-  color: var(--primary-brand-color) ;
+  line-height: 1.17;
+  color: var(--primary-brand-color);
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
-.site-nav_logo-text
-{
-    color: var(--dark-color);
+.site-nav_logo-text {
+  color: var(--dark-color);
 }
 
 /* ACTIVE PAGE */
-.link--active{
-    color:var(--pressed-state-color);
+.list-link {
+  color: var(--dark-color);
+}
+
+.link--active {
+  font-weight: 500;
+  color: var(--pressed-state-color);
 }
 
 /* CONTACTS */
-.contacts_list-link {
+.contacts {
   font-style: normal;
   color: var(--text-color);
 }
@@ -115,15 +111,15 @@ line-height: 1.111; */
 }
 .hero-title {
   font: 700 56px/60px;
-/* font-size: 56px;
+  /* font-size: 56px;
 font-weight: 700;
 line-height: 1.07; */
-color: var(--white-color);
+  color: var(--white-color);
 }
 .hero-button {
-font-weight: 500;
-letter-spacing: 0.04em;  
-background-color: var(--primary-brand-color);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-color);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -134,7 +130,7 @@ background-color: var(--primary-brand-color);
 
 /* FEATURES */
 
-.features-list_title{
+.features-list_title {
   font: 500 20px/24px;
   /*  
 font-size: 20px;
@@ -152,16 +148,14 @@ line-height: 1.2;
 
 /* ------------------------------------------------------------------------------------------------- */
 .team {
-  background-color: var(--light-color);  
+  background-color: var(--light-color);
   text-align: center;
-  
 }
 .team_list-title {
   font: 500 20px/24px;
-/* font-size: 20px;
+  /* font-size: 20px;
 font-weight: 500;
 line-height: 1.2; */
-
 }
 
 /* MAIN END */
@@ -173,7 +167,7 @@ line-height: 1.2; */
   background-color: var(--dark-color);
 }
 .footer_logo {
-    color: var(--light-color);
+  color: var(--light-color);
 }
 .footer_description {
   color: var(--light-color);
@@ -187,25 +181,22 @@ line-height: 1.2; */
 
 /* FILTERS */
 .filters-list_button {
- font-weight: 500;
- color: var(--primary-brand-color);
- letter-spacing: 0.04em;
- text-align: center;
+  font-weight: 500;
+  color: var(--primary-brand-color);
+  letter-spacing: 0.04em;
+  text-align: center;
 
- background-color: var(--button-background-color);
-
-
+  background-color: var(--button-background-color);
 }
 .filters-list_button:hover,
 .filters-list_button:focus {
-  color: var(--white-color) ;
-  background-color: var(--pressed-state-color) ;  
+  color: var(--white-color);
+  background-color: var(--pressed-state-color);
 }
 /* PROJECTS */
-.projects-list_title{
+.projects-list_title {
   font: 500 20px/24px;
-/* font-size: 20px;
+  /* font-size: 20px;
 font-weight: 500;
 line-height: 1.2; */
-
 }
