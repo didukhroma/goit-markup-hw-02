@@ -78,10 +78,10 @@ line-height: 1.111; */
   color: var(--dark-color);
 }
 
-/* ACTIVE PAGE */
 .list-link {
   color: var(--dark-color);
 }
+/* ACTIVE PAGE */
 
 .link--active {
   font-weight: 500;
