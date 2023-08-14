@@ -121,6 +121,7 @@ line-height: 1.111; */
   font-weight: 700;
   line-height: 1.07;
   color: var(--white-color);
+  letter-spacing: 0.02em;
 }
 .hero-button {
   font: inherit;
