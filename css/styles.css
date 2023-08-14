@@ -99,10 +99,10 @@ line-height: 1.111; */
   font-style: normal;
   color: var(--text-color);
 }
-/* .contacts_list-link:hover,
+.contacts_list-link:hover,
 .contacts_list-link:focus {
   color: var(--pressed-state-color);
-} */
+}
 
 /* HEADER END*/
 
