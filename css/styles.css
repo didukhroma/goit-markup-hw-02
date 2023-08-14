@@ -28,10 +28,10 @@
 /* ------------------------------------------------------------------------------------------------- */
 
 body {
-  font: 16px/24px var(--primary-font);
-  /* font-family: var(--primary-font);
-    font-size: 16px;
-    line-height: 1.5; */
+  /* font: 16px/24px var(--primary-font); */
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
   background-color: var(--white-color);
@@ -116,10 +116,10 @@ line-height: 1.111; */
   text-align: center;
 }
 .hero-title {
-  font: 700 56px/60px;
-  /* font-size: 56px;
-font-weight: 700;
-line-height: 1.07; */
+  /* font: 700 56px/60px; */
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
   color: var(--white-color);
 }
 .hero-button {
