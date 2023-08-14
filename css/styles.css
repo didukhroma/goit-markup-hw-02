@@ -54,6 +54,17 @@ body {
   color: var(--dark-color);
   text-align: center;
 }
+.button {
+  font: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--pressed-state-color);
+  cursor: pointer;
+}
 /* COMMON STYLES END*/
 
 /* ------------------------------------------------------------------------------------------------- */
@@ -125,17 +136,10 @@ body {
   letter-spacing: 0.02em;
 }
 .hero-button {
-  font: inherit;
-  font-weight: 500;
   color: var(--white-color);
-  letter-spacing: 0.04em;
   background-color: var(--primary-brand-color);
 }
-.hero-button:hover,
-.hero-button:focus {
-  cursor: pointer;
-  background-color: var(--pressed-state-color);
-}
+
 /* ------------------------------------------------------------------------------------------------- */
 
 /* FEATURES */
@@ -202,19 +206,12 @@ body {
 
 /* FILTERS */
 .filters-list_button {
-  font: inherit;
-  font-weight: 500;
   color: var(--primary-brand-color);
-  letter-spacing: 0.04em;
-  text-align: center;
-
   background-color: var(--light-color);
 }
 .filters-list_button:hover,
 .filters-list_button:focus {
   color: var(--white-color);
-  background-color: var(--pressed-state-color);
-  cursor: pointer;
 }
 /* PROJECTS */
 .projects-list_title {
