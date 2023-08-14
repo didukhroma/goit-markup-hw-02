@@ -165,12 +165,17 @@ body {
   background-color: var(--light-color);
   text-align: center;
 }
+.team_title {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 .team_list-title {
   /* font: 500 20px/24px; */
-
+  font-size: 20;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
-  text-transform: capitalize;
 }
 .team_list-item {
   background-color: var(--white-color);
