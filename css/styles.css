@@ -208,12 +208,13 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
 
-  background-color: var(--button-background-color);
+  background-color: var(--light-color);
 }
 .filters-list_button:hover,
 .filters-list_button:focus {
   color: var(--white-color);
   background-color: var(--pressed-state-color);
+  cursor: pointer;
 }
 /* PROJECTS */
 .projects-list_title {
