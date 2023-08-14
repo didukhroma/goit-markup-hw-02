@@ -202,6 +202,7 @@ body {
 
 /* FILTERS */
 .filters-list_button {
+  font: inherit;
   font-weight: 500;
   color: var(--primary-brand-color);
   letter-spacing: 0.04em;
