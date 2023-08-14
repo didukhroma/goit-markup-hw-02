@@ -41,7 +41,7 @@ body {
     font-size: 16px;
     line-height: 1.5; */
     letter-spacing: 0.02em;
-    color: var(--dark-color)
+    color: var(--text-color)
 }
 
 
@@ -57,13 +57,13 @@ body {
 }
 
 
-.img {
+/* .img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -72,7 +72,7 @@ body {
   padding: 0;
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
-}
+} */
 
 .title {
   font: 700 36px/40px;
@@ -152,9 +152,9 @@ background-color: var(--primary-brand-color);
 /* ------------------------------------------------------------------------------------------------- */
 
 /* FEATURES */
-.features_title {
+/* .features_title {
   display: none;
-}
+} */
 .features-list_title{
   font: 500 20px/24px;
   /*  
@@ -205,9 +205,9 @@ line-height: 1.2; */
 /* ------------------------------------------------------------------------------------------------- */
 /* PORTFOLIO */
 /* ------------------------------------------------------------------------------------------------- */
-.projects_title {
+/* .projects_title {
   display: none;
-}
+} */
 /* FILTERS */
 .filters-list_button {
  font-weight: 500;
