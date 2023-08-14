@@ -58,7 +58,7 @@ body {
 /* font-size: 36px;
 font-weight: 700;
 line-height: 1.111; */
-text-align: center;
+  text-align: center;
 
 }
 /* COMMON STYLES END*/
@@ -72,17 +72,19 @@ text-align: center;
 /* SITE LOGO */
 .site-nav_logo,
 .footer_logo{
-    font: 800 18px/21px var(--logo-font);
-    /* font-family: var(--logo-font);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.167; */
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    }
-.site-nav_logo-text,
-.footer_logo-text{
-    color: var(--primary-brand-color);
+    /* font: 800 18px/21px var(--logo-font); */
+  font-family: var(--logo-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.167;
+  color: var(--primary-brand-color) ;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.site-nav_logo-text
+{
+    color: var(--dark-color);
 }
 
 /* ACTIVE PAGE */
