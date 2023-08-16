@@ -68,6 +68,7 @@ h3 {
 
 .button {
   font-family: inherit;
+  font-size: inherit;
   font-weight: 500;
   letter-spacing: 0.04em;
   text-align: center;
