@@ -124,8 +124,8 @@ h3 {
   font-style: normal;
   color: var(--text-color);
 }
-.contacts-list-link.email-link:hover,
-.contacts-list-link.email-link:focus {
+.contacts-list-link[href='mailto:info@devstudio.com']:hover,
+.contacts-list-link[href='mailto:info@devstudio.com']:focus {
   color: var(--pressed-state-color);
 }
 
